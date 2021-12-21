@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+
+b = int(input("Enter the base: "))
+h = int(input("Enter the height: "))
+
+t = 1 
+
+while t <= h:
+  t = t + 1
+  print('*' * b)
